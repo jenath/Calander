@@ -1,0 +1,57 @@
+body {
+  background-color: #E8E8E8;
+}
+
+.top_banner {
+  margin: auto;
+  width: 800px;
+  height: auto;
+  padding: 20px;
+  background-color: #B8B8B8;
+  box-shadow: 5px 5px 15px;
+}
+
+.calander_section {
+  margin: auto;
+  width: 800px;
+  height: 100%;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 5px 5px 15px;
+}
+
+.calander {
+  margin: auto;
+}
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  color: white;
+  font-size: 36pt;
+  margin: 10px 150px;
+}
+
+h2 {
+  font-size: 12pt;
+  font-weight: 100;
+  letter-spacing: 1.5px;
+}
+
+
+tr {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+th, td {
+ background-color: #f1f1f1;
+ width: 90px;
+ margin: 10px;
+ text-align: center;
+ line-height: 75px;
+}
+
+td:hover {
+  background-color: lightblue;
+}
